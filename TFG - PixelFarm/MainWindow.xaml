@@ -1,0 +1,12 @@
+﻿<Window x:Class="TFG___PixelFarm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Pixel Farm" Height="720" Width="1280"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <!-- Contenedor principal que intercambia pantallas -->
+        <ContentControl x:Name="contenidoPrincipal"/>
+    </Grid>
+
+</Window>

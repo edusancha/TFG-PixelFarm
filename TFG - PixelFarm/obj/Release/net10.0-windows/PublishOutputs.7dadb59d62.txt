@@ -1,0 +1,6 @@
+C:\Users\edusc\Downloads\Caramba\Assets\Soundtrack.mp3
+C:\Users\edusc\Downloads\Caramba\TFG - PixelFarm.exe
+C:\Users\edusc\Downloads\Caramba\TFG - PixelFarm.dll
+C:\Users\edusc\Downloads\Caramba\TFG - PixelFarm.deps.json
+C:\Users\edusc\Downloads\Caramba\TFG - PixelFarm.runtimeconfig.json
+C:\Users\edusc\Downloads\Caramba\TFG - PixelFarm.pdb

@@ -1,0 +1,23 @@
+﻿<Window x:Class="TFG___PixelFarm.Pantallas.DialogoUsarCampos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Usar campos arados" Height="220" Width="513"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <StackPanel Margin="20">
+        <TextBlock x:Name="txtInfo" FontSize="13" Margin="0,0,0,15"
+                   TextWrapping="Wrap"/>
+        <TextBlock Text="¿Con qué verdura quieres rellenar los campos arados?"
+                   FontSize="12" Margin="0,0,0,10"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content=" Lechuga" Width="80" Margin="5"
+                    Click="btnLechuga_Click"/>
+            <Button Content=" Tomate" Width="80" Margin="5"
+                    Click="btnTomate_Click"/>
+            <Button Content=" Maíz" Width="80" Margin="5"
+                    Click="btnMaiz_Click"/>
+        </StackPanel>
+        <Button Content="Sin campos arados" Margin="0,10,0,0"
+                Click="btnSin_Click"/>
+    </StackPanel>
+</Window>

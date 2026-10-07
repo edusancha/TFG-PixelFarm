@@ -1,0 +1,6 @@
+C:\Users\edusc\Downloads\Assets\Soundtrack.mp3
+C:\Users\edusc\Downloads\TFG - PixelFarm.exe
+C:\Users\edusc\Downloads\TFG - PixelFarm.dll
+C:\Users\edusc\Downloads\TFG - PixelFarm.deps.json
+C:\Users\edusc\Downloads\TFG - PixelFarm.runtimeconfig.json
+C:\Users\edusc\Downloads\TFG - PixelFarm.pdb

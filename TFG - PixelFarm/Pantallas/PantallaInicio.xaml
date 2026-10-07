@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="TFG___PixelFarm.Pantallas.PantallaInicio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TFG___PixelFarm.Pantallas"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid>
+        <!-- Fondo -->
+        <Image Source="/Assets/Granja.jpg" Stretch="UniformToFill"/>
+
+        <!-- Overlay oscuro para que el texto se lea mejor -->
+        <Rectangle Fill="Black" Opacity="0.3"/>
+
+        <!-- Contenido centrado -->
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+
+            <!-- Título -->
+            <TextBlock Text="PIXEL FARM"
+                       FontSize="72" FontWeight="Bold"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       Margin="0,0,0,10">
+                <TextBlock.Effect>
+                    <DropShadowEffect Color="Black" BlurRadius="10" 
+                                      ShadowDepth="4"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
+
+
+            <!-- Botón Nueva Partida -->
+            <Button x:Name="btnNuevaPartida"
+                    Content="Nueva Partida"
+                    Width="250" Height="60"
+                    FontSize="22" FontWeight="Bold"
+                    Margin="0,0,0,15"
+                    Click="btnNuevaPartida_Click">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#4CAF50"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                                            CornerRadius="10"
+                                            Padding="10">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                                          VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#388E3C"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+
+
+
+            <!-- Botón Instrucciones -->
+            <Button Content="Instrucciones" Click="btnInstrucciones_Click" Height="46" Width="155" FontSize="20">
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#FFAF874C"/>
+                        <Setter Property="Foreground" Value="White"/>
+                        <Setter Property="BorderThickness" Value="1"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}"
+                            CornerRadius="10"
+                            Padding="10">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FFCA7723"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+
+
+
+            </Button>
+
+        </StackPanel>
+    </Grid>
+</UserControl>

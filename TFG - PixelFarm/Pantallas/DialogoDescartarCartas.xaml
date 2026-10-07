@@ -1,0 +1,18 @@
+﻿<Window x:Class="TFG___PixelFarm.Pantallas.DialogoDescartarCartas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Descartar cartas" Height="300" Width="610"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <StackPanel Margin="20">
+        <TextBlock x:Name="txtInfo" FontSize="13" 
+                   Margin="0,0,0,15" TextWrapping="Wrap"/>
+        <ListBox x:Name="listaCartas" Height="150"
+                 DisplayMemberPath="nombre"
+                 SelectionMode="Multiple"/>
+        <TextBlock x:Name="txtError" Foreground="Red" 
+                   Margin="0,5,0,0" TextWrapping="Wrap"/>
+        <Button Content="Confirmar" Margin="0,10,0,0"
+                Click="btnConfirmar_Click"/>
+    </StackPanel>
+</Window>

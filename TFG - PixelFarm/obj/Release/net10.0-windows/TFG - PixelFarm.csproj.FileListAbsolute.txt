@@ -1,0 +1,42 @@
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\TFG - PixelFarm.exe
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\Assets\Soundtrack.mp3
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\TFG - PixelFarm.deps.json
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\TFG - PixelFarm.runtimeconfig.json
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\TFG - PixelFarm.dll
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\bin\Release\net10.0-windows\TFG - PixelFarm.pdb
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\MainWindow.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoCosecha.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoDescartarCartas.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoElegirCarta.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoInstrucciones.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoPago.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoUsarCampos.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaFin.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\MainWindow.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoCosecha.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoDescartarCartas.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoElegirCarta.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoInstrucciones.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoPago.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\DialogoUsarCampos.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaFin.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaInicio.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaJuego.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\App.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm_Content.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm_MarkupCompile.cache
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm_MarkupCompile.lref
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\App.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaInicio.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\Pantallas\PantallaJuego.baml
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.g.resources
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.AssemblyInfoInputs.cache
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.AssemblyInfo.cs
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.csproj.CoreCompileInputs.cache
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.dll
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\refint\TFG - PixelFarm.dll
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.pdb
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\TFG - PixelFarm.genruntimeconfig.cache
+C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\obj\Release\net10.0-windows\ref\TFG - PixelFarm.dll

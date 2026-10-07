@@ -1,0 +1,26 @@
+﻿<Application x:Class="TFG___PixelFarm.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TFG___PixelFarm.Converters"
+             xmlns:converters="clr-namespace:TFG___PixelFarm.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <converters:TipoAColorConverter x:Key="tipoAColor"/>
+        <converters:FaseAVisibilidadConverter x:Key="faseAVisibilidad"/>
+        <converters:CartaSeleccionadaConverter x:Key="cartaSeleccionada"/>
+        <converters:BoolAVisibilidadConverter x:Key="boolAVisibilidad"/>
+       
+        <converters:CartaACeldasConverter x:Key="cartaACeldas"/>
+        <converters:CartaAColumnasConverter x:Key="cartaAColumnas"/>
+        <converters:FaseATextoConverter x:Key="faseATexto"/>
+     
+        <converters:FormaACeldasConverter x:Key="formaACeldas"/>
+        <converters:FormaAColumnasConverter x:Key="formaAColumnas"/>
+        <converters:ActivaAColorConverter x:Key="activaAColor"/>
+        <converters:TipoAImagenConverter x:Key="tipoAImagen"/>
+        <converters:ReduccionAImagenConverter x:Key="reduccionAImagenConverter"/>
+        <converters:EstacionAImagenConverter x:Key="estacionAImagen"/>
+        <converters:CeldaAColorConverter x:Key="celdaAColor"/>
+
+    </Application.Resources>
+</Application>

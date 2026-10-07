@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>TFG___PixelFarm</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Aspersor.jpg" />
+    <None Remove="Assets\campo.png" />
+    <None Remove="Assets\CampoArado.jpg" />
+    <None Remove="Assets\Carretilla.jpg" />
+    <None Remove="Assets\Fondo.png" />
+    <None Remove="Assets\Granja.jpg" />
+    <None Remove="Assets\Invierno.jpg" />
+    <None Remove="Assets\Lechuga.jpg" />
+    <None Remove="Assets\Maiz.jpg" />
+    <None Remove="Assets\mesa.png" />
+    <None Remove="Assets\Moneda1.jpg" />
+    <None Remove="Assets\Moneda2.jpg" />
+    <None Remove="Assets\Moneda3.jpg" />
+    <None Remove="Assets\Pala.png" />
+    <None Remove="Assets\plaga.png" />
+    <None Remove="Assets\Primavera.jpg" />
+    <None Remove="Assets\Semillas.jpg" />
+    <None Remove="Assets\Soundtrack.mp3" />
+    <None Remove="Assets\Textura_mesa.png" />
+    <None Remove="Assets\token1.png" />
+    <None Remove="Assets\Token2.jpg" />
+    <None Remove="Assets\Token3.jpg" />
+    <None Remove="Assets\Tomate.jpg" />
+    <None Remove="Assets\Verano.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Aspersor.jpg" />
+    <Resource Include="Assets\campo.png" />
+    <Resource Include="Assets\CampoArado.jpg" />
+    <Resource Include="Assets\Carretilla.jpg" />
+    <Resource Include="Assets\Fondo.png" />
+    <Resource Include="Assets\Granja.jpg" />
+    <Resource Include="Assets\Invierno.jpg" />
+    <Resource Include="Assets\Lechuga.jpg" />
+    <Resource Include="Assets\Maiz.jpg" />
+    <Resource Include="Assets\mesa.png" />
+    <Resource Include="Assets\Moneda1.jpg" />
+    <Resource Include="Assets\Moneda2.jpg" />
+    <Resource Include="Assets\Moneda3.jpg" />
+    <Resource Include="Assets\Otono.jpg" />
+    <Resource Include="Assets\Pala.png" />
+    <Resource Include="Assets\plaga.png" />
+    <Resource Include="Assets\Primavera.jpg" />
+    <Resource Include="Assets\Semillas.jpg" />
+    <Content Include="Assets\Soundtrack.mp3">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Assets\Textura_mesa.png" />
+    <Resource Include="Assets\token1.png" />
+    <Resource Include="Assets\Token2.jpg" />
+    <Resource Include="Assets\Token3.jpg" />
+    <Resource Include="Assets\Tomate.jpg" />
+    <Resource Include="Assets\Verano.jpg" />
+  </ItemGroup>
+
+</Project>

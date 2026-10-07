@@ -1,0 +1,92 @@
+﻿<Window x:Class="TFG___PixelFarm.Pantallas.DialogoInstrucciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Instrucciones — Pixel Farm" Height="600" Width="500"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="20">
+        <StackPanel>
+            <TextBlock Text="PIXEL FARM" FontSize="28" FontWeight="Bold" 
+                       Foreground="#1A4A1A" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+            <TextBlock Text="Objetivo del juego" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Gestiona tu granja colocando cartas, cultivando verduras y completando objetivos 
+                para obtener la mayor puntuación posible.
+            </TextBlock>
+
+            <TextBlock Text="Fase 1 — Nueva cosecha" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Coloca todas las cartas de tu mano en el huerto. La primera carta se coloca 
+                libremente. Las siguientes deben solaparse con cartas anteriores en exactamente 
+                casillas (misma fila o columna). 
+            </TextBlock>
+
+            <TextBlock Text="Fase 2 — Control de plagas" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Se calcula la producción de cada huerto.
+                Si no produces alguna verdura (excepto en invierno), recibes una carta de plaga 
+                que penaliza −2 puntos al final.
+            </TextBlock>
+
+            <TextBlock Text="Fase 3 — Mercado" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,5">
+                Primero se producen verduras según el tamaño de tus huertos, con bonus de estación. 
+                Luego puedes comprar cartas:
+            </TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">• Cartas de mercado: paga con verduras de un tipo.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">• Cartas objetivo (pedido): entrega las verduras indicadas.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">• Cartas objetivo (parcela): necesitas la forma indicada en tu huerto.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">• Comercio: intercambia verduras por monedas (1 vez por turno).</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,10">• Pala: descarta una carta del mercado/objetivos y revela una nueva.</TextBlock>
+
+            <TextBlock Text="Fase 4 — Reabastecimiento" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Las cartas objetivo reciben una moneda. Las de mercado incrementan su descuento. 
+                Las que tengan moneda o descuento −3 se descartan. Se rellenan los huecos. 
+                Si aparece una carta de estación, cambia la temporada y se recibe una plaga 
+                excepto en invierno.
+            </TextBlock>
+
+            <TextBlock Text="Fase 5 — Cosecha de verduras" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,0,0,10">
+                Puedes guardar verduras en los campos arados vacíos para la siguiente ronda. 
+                El resto se pierde. Las cartas del huerto van al descarte. Robas 3 cartas 
+                + 1 por cada semilla que había en el huerto. Si tienes pala, puedes descartar 
+                una carta y robar otra.
+            </TextBlock>
+
+            <TextBlock Text="Casillas especiales" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Semillas: +1 carta a robar al final del turno.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Carretilla: +1 compra en el mercado.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Aspersor: +1 producción por cada verdura adyacente.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Pala: permite descartar cartas del mercado o de la mano.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,10">Campo arado: permite guardar verduras entre turnos.</TextBlock>
+
+            <TextBlock Text="Estaciones" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Primavera: +1 lechuga si produces lechuga.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Verano: +1 tomate si produces tomate.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">Otoño: +1 maíz si produces maíz.</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,10">Invierno: anula el huerto más pequeño. Sin plagas por no producir.</TextBlock>
+
+            <TextBlock Text="Puntuación final" FontSize="16" FontWeight="Bold" 
+                       Foreground="#2E6B2E" Margin="0,10,0,5"/>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">+ Puntos de cartas objetivo</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">+ 1 punto por cada moneda</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,3">+ Puntos de la carta de comercio (si tiene token objetivo)</TextBlock>
+            <TextBlock TextWrapping="Wrap" Margin="15,0,0,10">− 2 puntos por cada carta de plaga</TextBlock>
+
+
+            <Button Content="Cerrar" HorizontalAlignment="Center" Width="120" Height="35"
+                    Click="btnCerrar_Click" Margin="0,10,0,20"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>

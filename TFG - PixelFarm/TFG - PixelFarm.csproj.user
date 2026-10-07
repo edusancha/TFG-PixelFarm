@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\edusc\source\repos\TFG - PixelFarm\TFG - PixelFarm\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Pantallas\DialogoCosecha.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\DialogoDescartarCartas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\DialogoElegirCarta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\DialogoInstrucciones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\DialogoPago.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\DialogoUsarCampos.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\PantallaFin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\PantallaInicio.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pantallas\PantallaJuego.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
